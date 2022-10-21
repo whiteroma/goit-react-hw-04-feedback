@@ -33,6 +33,7 @@ export class App extends React.Component {
     const total = this.countTotalFeedback();
     const percentage = this.countPositiveFeedbackPercentage();
     const options = Object.keys(this.state);
+    console.log(options);
 
     return (
       <>
