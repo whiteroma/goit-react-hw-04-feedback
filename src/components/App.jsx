@@ -13,7 +13,7 @@ export default function App() {
   const onFeedback = option => {
     switch (option) {
       case 'good':
-        setGood(good +1 );
+        setGood(good + 1);
         break;
       case 'bad':
         setBad(bad + 1);
